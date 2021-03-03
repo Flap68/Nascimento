@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+    height: 850px;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+
+header h1 {
+    text-align: center;
+    color: #e9e9e9;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+    border-left: solid 4px white;
+    width: 560px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+main {
+    margin-top: 5rem;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px;
+}
+
+
+.paragrafo {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #a19f9f;
+
+}
+
+.paragrafo p {
+    margin-bottom: 2rem;
+    border-bottom: solid 1px #d1d0d0;
+}
+
+.nascimento {
+    height: 50px;
+}
+
+.sexo {
+    color: #706f6f;
+    border-bottom: solid 1px #d1d0d0;
+}
+
+.sexo label {
+    color: #444444;
+    font-weight: 800;
+
+    cursor: pointer;
+}
+
+.sexo label:hover{
+    color: #8b8a8a;
+    transition: 1s;
+}
+
+#txtano {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0 1rem;
+    border-radius: 10px;
+}
+
+#clique {
+    padding: 0.5rem 1.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #4f2caf;
+    box-shadow: 0px 10px #3c2186;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+#clique:hover {
+    background-color: #6237d6;
+}
+
+#res {
+    margin-top: 1.5rem;
+    text-align: left;
+    color: #706f6f;
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+    border-bottom: solid 1px #dadada;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 4rem;
+    color: white;
+}
+
+@media (max-width: 800px){
+
+    header h1 {
+        font-size: 30px;
+        width: 300px;
+    }
+    
+    main {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .sexo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        border-bottom: solid 1px #d1d0d0;
+    }
+
+    .nascimento {
+        height: 90px;
+    }
+
+    #res {
+        text-align: center;
+    }
+}
