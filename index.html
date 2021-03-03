@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data de nascimento</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Data de Nascimento</h1>
+    </header>
+
+    <main>
+        <section id="container">
+            <div class="paragrafo">
+                <p class="nascimento">Ano de nascimento
+                    <input type="number" id="txtano" min="0" placeholder="Data-nascimento">
+                </p>
+                <p class="sexo">Sexo:
+                    <input type="radio" name="radsex" id="mas" checked> <label for="mas">Masculino</label>
+                    
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+
+                <div>
+                    <input id="clique" type="button" value="Verifica" onclick="verificar()">
+                </div>
+            </div>
+
+            <div id="res">
+                <p>Preencha todos os dados acima..</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        @Deivid.Braga
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
